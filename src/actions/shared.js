@@ -1,7 +1,7 @@
 import { getInitialData } from '../utils/api'
-import { receiveUsers } from './actions/users'
-import { receivePolls } from './actions/polls'
-import { setAuthedUser } from './actions/authedUser'
+import { receiveUsers } from './users'
+import { receivePolls } from './polls'
+import { setAuthedUser } from './authedUser'
 
 const AUTHED_ID = 'dan_abramov'
 
